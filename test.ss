@@ -1,2 +1,1 @@
-(define (myadd x)
-    (+ x x))
+(+ 2 3)
