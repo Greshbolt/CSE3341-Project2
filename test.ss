@@ -31,5 +31,5 @@
         )
 )
 (define (myinterpreter prog_list)
-    (prog (cdr prog_list) (cons '() '()))
+    (prog (cadr prog_list) (cons '() '()))
 )
