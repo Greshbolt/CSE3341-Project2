@@ -31,11 +31,5 @@
         )
 )
 (define (myinterpreter prog_list)
-    (prog prog_list (cons () ()))
+    (prog prog_list (cons '() '()))
 )
-
-;    (define (test lis)
-;  (car (cadr lis))
-;  (cadddr (cadr lis))
-;)
-;(test '(prog (mylet a 66 (myadd (mylet b (mymul 2 4) (myadd 2 b)) (mymul 2 a)))))
